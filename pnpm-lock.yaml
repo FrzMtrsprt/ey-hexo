@@ -24,8 +24,8 @@ dependencies:
     specifier: ^2.0.0
     version: 2.0.0
   hexo-renderer-marked:
-    specifier: ^6.0.0
-    version: 6.0.0
+    specifier: ^6.2.0
+    version: 6.2.0
   hexo-renderer-stylus:
     specifier: ^3.0.1
     version: 3.0.1
@@ -408,8 +408,8 @@ packages:
       domelementtype: 2.3.0
     dev: false
 
-  /dompurify@2.4.7:
-    resolution: {integrity: sha512-kxxKlPEDa6Nc5WJi+qRgPbOAbgTpSULL+vI3NUXsZMlkJxTqYI9wg5ZTay2sFrdZRWHPWNi+EdAhcJf81WtoMQ==}
+  /dompurify@3.0.8:
+    resolution: {integrity: sha512-b7uwreMYL2eZhrSCRC4ahLTeZcPZxSmYfmcQGXGkXiZSNW1X85v+SDM5KsWcpivIiUBH47Ji7NtyUdpLeF5JZQ==}
     dev: false
 
   /domutils@2.8.0:
@@ -680,12 +680,12 @@ packages:
       ejs: 3.1.9
     dev: false
 
-  /hexo-renderer-marked@6.0.0:
-    resolution: {integrity: sha512-/B/ud8q9pNldbipuv6cPyqL+fir973+blV79n6j59M3S8LRz/4hLXwd0TA4RHxcHVrgPakeWUtiH3UWo6B6Pag==}
+  /hexo-renderer-marked@6.2.0:
+    resolution: {integrity: sha512-/TwgQCAmqYIyxONzrgqokw0n8rU6W/lCtgbjhWcMoZxhwTaQCYpzaO0+sdu+PKXf9BL4910pg+xAbeFaqqIIrA==}
     engines: {node: '>=14'}
     dependencies:
-      dompurify: 2.4.7
-      hexo-util: 2.7.0
+      dompurify: 3.0.8
+      hexo-util: 3.2.0
       jsdom: 20.0.3
       marked: 4.3.0
     transitivePeerDependencies:
